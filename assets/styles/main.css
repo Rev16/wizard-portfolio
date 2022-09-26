@@ -1,3 +1,58 @@
+/* External Resources */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap");
+
+/* Variables */
+
+:root {
+  /* Color */
+  --color-accent: #f43f5e;
+  --color-neutral-50: #ffffff;
+  --color-neutral-300: #a1a1aa;
+  --color-neutral-600: #27272a;
+  --color-neutral-900: #18181b;
+
+  /* Fonts */
+  /* Font Size */
+  --font-size-heading-01: 48px;
+  --font-size-heading-02: 42px;
+  --font-size-heading-03: 36px;
+  --font-size-body: 16px;
+  --font-size-label: 14px;
+
+  /* Font Weight */
+  --font-weight-heading-01: 700;
+  --font-weight-heading-02: 700;
+  --font-weight-heading-03: 700;
+  --font-weight-body: 400;
+  --font-weight-label: 700;
+
+  /* Line Height */
+  --line-height-heading-01: 60px;
+  --line-height-heading-02: 48px;
+  --line-height-heading-03: 45px;
+  --line-height-body: 24px;
+  --line-height-label: 18px;
+
+
+  /* Font Family */
+  --font-family:font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Global */
+/* Fonts */
+:root{
+    font-family: var(--font-family);
+}
+
+h1 {
+  color: var(--color-neutral-50);
+  font-size: var(--font-size-heading-01);
+  font-weight: var(--font-weight-heading-01);
+  line-height: var(--line-height-heading-01);
+  font-family: var(--font-family);
+}
+
+/* Navigation */
 .logo {
   width: 90px;
   height: 20px;
@@ -11,8 +66,4 @@
 
 .nav__menu {
   background-image: url("/assets/svg/menu.svg");
-}
-
-body {
-  background-color: black;
 }
