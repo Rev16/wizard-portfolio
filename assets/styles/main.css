@@ -1,0 +1,18 @@
+.logo {
+  width: 90px;
+  height: 20px;
+  background-image: url("/assets/svg/Logo.svg");
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav__menu {
+  background-image: url("/assets/svg/menu.svg");
+}
+
+body {
+  background-color: black;
+}
