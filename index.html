@@ -12,22 +12,93 @@
   </head>
   <body>
     <!-- Header -->
-
-    <header>
+    <header class="container nav-container">
+      <!-- Navigation -->
       <nav>
         <div class="logo"></div>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Works</a></li>
-          <li><button>Contact</button></li>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Works</a></li>
+          <li>
+            <a href="#">
+              <button class="btn-secondary">Contact</button>
+            </a>
+          </li>
         </ul>
         <div class="icon nav__menu"></div>
       </nav>
-      <h1>I can help you build your ideas into reality.</h1>
     </header>
 
-    <!-- Navigation -->
     <!-- Hero -->
+    <section class="container">
+      <div class="hero">
+        <div class="hero__left">
+          <div class="hero__left--content">
+            <h1>I can help you <span>build</span> your ideas into reality.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <a href="#"
+            ><button>
+              <div class="icon hero__cta-icon"></div>
+              <span>Contact me</span>
+            </button>
+          </a>
+        </div>
+        <div class="hero__right">
+          <img src="./assets/images/Hero-Image.png" alt="Hero image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container about-container">
+      <div class="about">
+        <h1>About Me</h1>
+        <div class="about__content">
+          <div class="about__left">
+            <img src="./assets/images/Person.png" alt="" />
+          </div>
+          <div class="about__right">
+            <ul class="about__right--features">
+              <li class="about__link-item">
+                <div>
+                  <img class="icon-48" src="./assets/svg/draw.svg" alt="" />
+                  <p>Ui Designs</p>
+                </div>
+                <img class="icon" src="./assets/svg/beenhere.svg" alt="" />
+              </li>
+
+              <li class="about__link-item">
+                <div>
+                  <img class="icon-48" src="./assets/svg/brush.svg" alt="" />
+                  <p>Illustrations</p>
+                </div>
+                <img class="icon" src="./assets/svg/beenhere.svg" alt="" />
+              </li>
+
+              <li class="about__link-item">
+                <div>
+                  <img class="icon-48" src="./assets/svg/polyline.svg" alt="" />
+                  <p>Prototyping</p>
+                </div>
+                <img class="icon" src="./assets/svg/beenhere.svg" alt="" />
+              </li>
+
+              <li>
+                <p>
+                  Myslef, <b>Wizard</b>. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Section - About -->
     <!-- Section - Works -->
     <!-- Section - Contact -->
