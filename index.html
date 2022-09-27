@@ -17,10 +17,10 @@
       <nav>
         <div class="logo"></div>
         <ul class="nav-links">
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Works</a></li>
+          <li class="nav-item"><a href="#about-section">About</a></li>
+          <li class="nav-item"><a href="#work-section">Works</a></li>
           <li>
-            <a href="#">
+            <a href="#contact-section">
               <button class="btn-secondary">Contact</button>
             </a>
           </li>
@@ -31,7 +31,7 @@
 
     <!-- Hero -->
     <section class="container">
-      <div class="hero">
+      <div class="hero" id="hero-section">
         <div class="hero__left">
           <div class="hero__left--content">
             <h1>I can help you <span>build</span> your ideas into reality.</h1>
@@ -40,8 +40,8 @@
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <a href="#"
-            ><button>
+          <a href="#contact-section"
+            ><button class="hero__cta">
               <div class="icon hero__cta-icon"></div>
               <span>Contact me</span>
             </button>
@@ -53,8 +53,9 @@
       </div>
     </section>
 
+    <!-- Section - About -->
     <section class="container about-container">
-      <div class="about">
+      <div class="about" id="about-section">
         <h1>About Me</h1>
         <div class="about__content">
           <div class="about__left">
@@ -99,9 +100,88 @@
       </div>
     </section>
 
-    <!-- Section - About -->
     <!-- Section - Works -->
+    <section class="container">
+      <div class="work" id="work-section">
+        <div class="work__left">
+          <div class="work__left-content">
+            <h1>Works</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="work__left-tools">
+            <p>Tools Used</p>
+            <ul class="work__tools-list">
+              <li><img class="icon" src="./assets/svg/Miro.svg" alt="" /></li>
+              <li><img class="icon" src="./assets/svg/Figma.svg" alt="" /></li>
+              <li>
+                <img class="icon" src="./assets/svg/Framer-Motion.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="work__right">
+          <div class="work__right--feature">
+            <img src="./assets/images/Feature-01.png" alt="" />
+            <img src="./assets/images/Feature-02.png" alt="" />
+            <img src="./assets/images/Feature-03.png" alt="" />
+          </div>
+          <div class="work__slider">
+            <div class="icon work__slider-active"></div>
+            <div class="icon work__slider-inactive"></div>
+            <div class="icon work__slider-inactive"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Section - Contact -->
+    <section class="container contact-container">
+      <div class="contact" id="contact-section">
+        <h1>Contact</h1>
+        <div class="contact__cta">
+          <a href="tel:+001122334455"
+            ><button>
+              <div class="icon contact__cta-phone"></div>
+              <span>+00 1122 3344 55</span>
+            </button>
+          </a>
+          <a href="mailto:contact@wizard.com"
+            ><button>
+              <div class="icon contact__cta-email"></div>
+              <span>contact@wizard.com</span>
+            </button>
+          </a>
+        </div>
+        <div class="contact__content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod
+          </p>
+          <div class="contact__social">
+            <div class="icon social__behance"></div>
+            <div class="icon social__linkedin"></div>
+            <div class="icon social__awwwards"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Section - Footer -->
+    <section class="container">
+      <footer>
+        <p>Made with ❤️</p>
+        <div class="footer__copyright">
+          <img src="./assets/svg/copyright.svg" alt="" />
+          <p>All rights received</p>
+        </div>
+        <div class="logo"></div>
+      </footer>
+    </section>
+
+    <!-- End -->
   </body>
 </html>
