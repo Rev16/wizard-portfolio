@@ -435,6 +435,11 @@ nav {
   gap: 24px;
 }
 
+.contact__social {
+  display: flex;
+  gap: 8px;
+}
+
 .social__behance {
   background-image: url("/assets/svg/Behance.svg");
   transition: all 0.25s;
