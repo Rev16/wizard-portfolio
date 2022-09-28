@@ -400,12 +400,21 @@ nav {
   gap: 16px;
 }
 
-.contact__cta-phone {
+.contact__cta-phone-icon {
   background-image: url("/assets/svg/call.svg");
+  transition: all 0.25s;
 }
 
-.contact__cta-email {
+.contact__cta-phone:hover .contact__cta-phone-icon {
+  background-image: url("/assets/svg/call-White.svg");
+}
+
+.contact__cta-email-icon {
   background-image: url("/assets/svg/alternate_email.svg");
+  transition: all 0.25s;
+}
+.contact__cta-email:hover .contact__cta-email-icon {
+  background-image: url("/assets/svg/alternate_email-White.svg");
 }
 
 .contact__content {
@@ -421,21 +430,36 @@ nav {
   text-align: center;
 }
 
-.contact__social {
+.contact__cta-phone:hover .contact__social {
   display: flex;
   gap: 24px;
 }
 
 .social__behance {
   background-image: url("/assets/svg/Behance.svg");
+  transition: all 0.25s;
+}
+
+.social__behance:hover {
+  background-image: url("/assets/svg/Behance\ -\ Accent.svg");
 }
 
 .social__linkedin {
   background-image: url("/assets/svg/Awwwards.svg");
+  transition: all 0.25s;
+}
+
+.social__linkedin:hover {
+  background-image: url("/assets/svg/Awwwards\ -\ Accent.svg");
 }
 
 .social__awwwards {
   background-image: url("/assets/svg/LinkedIn.svg");
+  transition: all 0.25s;
+}
+
+.social__awwwards:hover {
+  background-image: url("/assets/svg/LinkedIn\ -\ Accent.svg");
 }
 
 /* Footer */
@@ -474,32 +498,11 @@ footer div {
     line-height: var(--line-height-heading-03);
   }
 
+  /* Header */
   /* Navigation */
-
-  nav {
-    height: 48px;
-    padding: 12px 55px;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .nav__menu {
-    display: block;
-  }
-
   /* Hero */
-  .hero {
-    flex-direction: column-reverse;
-  }
-
-  .hero__right {
-    width: 100%;
-  }
-
-  .hero__right img {
-    width: 328px;
-    height: 226px;
-  }
+  /* About */
+  /* Works */
+  /* Contact */
+  /* Footer */
 }
