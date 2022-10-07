@@ -165,6 +165,8 @@ button:hover {
   background-color: var(--color-accent);
 }
 
+/* Header */
+
 /* Navigation */
 .nav-container {
   border-bottom: 1px solid var(--color-neutral-600);
@@ -494,6 +496,8 @@ footer div {
   /* Spacing */
   .container {
     padding: 0 16px;
+    width: 100vw;
+    max-width: 390px;
   }
 
   /* Fonts */
@@ -501,13 +505,126 @@ footer div {
     font-size: var(--font-size-heading-03);
     font-weight: var(--font-weight-heading-03);
     line-height: var(--line-height-heading-03);
+    margin: 0;
+    padding: 0;
   }
 
   /* Header */
+  .nav-container {
+    padding: 8px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* Navigation */
+  nav {
+    height: 48px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav__menu {
+    display: flex;
+  }
+
   /* Hero */
+
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    max-width: 390px;
+    margin: 0;
+    padding: 16px 40px;
+    gap: 24px;
+  }
+
+  .hero__right {
+    display: flex;
+    justify-content: center;
+    height: 226px;
+    width: 328px;
+  }
+
+  .hero__left {
+    width: 90vw;
+  }
+
+  .hero__left-content {
+    width: auto;
+  }
+
+  .hero__cta {
+    width: 100%;
+  }
+
   /* About */
+  .about {
+    margin: 0;
+    padding: 40px 0;
+    width: 100%;
+    max-width: 358px;
+  }
+
+  .about__content {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 390px;
+  }
+
+  .about__left {
+    width: 100%;
+    max-width: 390px;
+  }
+
+  .about__right {
+    padding: 0 16px;
+    width: 100%;
+    max-width: 358px;
+  }
+
   /* Works */
+  .work {
+    flex-direction: column;
+    width: auto;
+    max-width: 390px;
+    margin: 0;
+    padding: 40px 16px;
+  }
+
+  .work__left {
+    width: auto;
+  }
   /* Contact */
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    max-width: 390px;
+  }
+
+  .contact__cta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact__cta button {
+    width: 100%;
+  }
+
   /* Footer */
+  footer {
+    max-width: 280px;
+  }
+
+  .footer__copyright p {
+    display: none;
+  }
 }
